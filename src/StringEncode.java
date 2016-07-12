@@ -35,5 +35,7 @@ public class StringEncode {
         for(String out : result){
             System.out.println(out);
         }
+        String result2 = res.stringEncode(result);
+        System.out.println(result2);
     }
 }
